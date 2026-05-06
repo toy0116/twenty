@@ -15,6 +15,7 @@ import { useNavigationSection } from '@/ui/navigation/navigation-drawer/hooks/us
 import { isNavigationSectionOpenFamilyState } from '@/ui/navigation/navigation-drawer/states/isNavigationSectionOpenFamilyState';
 import { useAtomFamilyStateValue } from '@/ui/utilities/state/jotai/hooks/useAtomFamilyStateValue';
 import { useNavigateSettings } from '~/hooks/useNavigateSettings';
+import { NavigationDrawerLocaleToggle } from '@/navigation/components/NavigationDrawerLocaleToggle';
 
 export const NavigationDrawerOtherSection = () => {
   const { t } = useLingui();
@@ -60,6 +61,7 @@ export const NavigationDrawerOtherSection = () => {
           Icon={IconHelpCircle}
         />
       </AnimatedExpandableContainer>
+      <NavigationDrawerLocaleToggle />
     </NavigationDrawerSection>
   );
 };
