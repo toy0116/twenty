@@ -94,6 +94,8 @@ export const createStandardRelationFieldFlatMetadata = <
     type,
     name: fieldName.toString(),
     label,
+    labelTranslations: null,
+    optionLabelTranslations: null,
     description,
     icon,
     isCustom: false,

@@ -71,6 +71,8 @@ export const fromFieldManifestToUniversalFlatFieldMetadata = ({
     type: fieldManifest.type,
     name: fieldManifest.name,
     label: fieldManifest.label,
+    labelTranslations: null,
+    optionLabelTranslations: null,
     description: fieldManifest.description ?? null,
     icon: fieldManifest.icon ?? null,
     standardOverrides: null,

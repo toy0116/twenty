@@ -89,6 +89,12 @@ export class FieldMetadataEntity<
   label: string;
 
   @Column({ nullable: true, type: 'jsonb' })
+  labelTranslations: Record<string, string> | null;
+
+  @Column({ nullable: true, type: 'jsonb' })
+  optionLabelTranslations: Record<string, Record<string, string>> | null;
+
+  @Column({ nullable: true, type: 'jsonb' })
   defaultValue: JsonbProperty<FieldMetadataDefaultValue<TFieldMetadataType>>;
 
   @Column({ nullable: true, type: 'text' })

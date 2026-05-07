@@ -71,6 +71,16 @@ export const ALL_ENTITY_PROPERTIES_CONFIGURATION_BY_METADATA_NAME = {
       toStringify: false,
       universalProperty: undefined,
     },
+    labelTranslations: {
+      toCompare: true,
+      toStringify: true,
+      universalProperty: undefined,
+    },
+    optionLabelTranslations: {
+      toCompare: true,
+      toStringify: true,
+      universalProperty: undefined,
+    },
     name: { toCompare: true, toStringify: false, universalProperty: undefined },
     options: {
       toCompare: true,

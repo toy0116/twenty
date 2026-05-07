@@ -129,6 +129,8 @@ export const buildDefaultFlatFieldMetadatasForCustomObject = ({
           universalIdentifier: v4(),
           name: 'name',
           label: 'Name',
+          labelTranslations: null,
+          optionLabelTranslations: null,
           icon: 'IconAbc',
           description: 'Name',
           isNullable: true,

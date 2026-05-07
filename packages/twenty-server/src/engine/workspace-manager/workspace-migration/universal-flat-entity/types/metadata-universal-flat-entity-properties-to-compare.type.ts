@@ -32,6 +32,8 @@ type Assertions = [
       MetadataUniversalFlatEntityPropertiesToCompare<'fieldMetadata'>,
       | 'name'
       | 'label'
+      | 'labelTranslations'
+      | 'optionLabelTranslations'
       | 'icon'
       | 'description'
       | 'isActive'

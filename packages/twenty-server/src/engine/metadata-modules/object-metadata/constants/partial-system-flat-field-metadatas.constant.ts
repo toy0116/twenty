@@ -39,6 +39,8 @@ const PARTIAL_ID_FIELD = {
   calendarViewUniversalIdentifiers: [],
   mainGroupByFieldMetadataViewUniversalIdentifiers: [],
   fieldPermissionUniversalIdentifiers: [],
+  labelTranslations: null,
+  optionLabelTranslations: null,
   viewSortUniversalIdentifiers: [],
 } as const satisfies PartialSystemFlatFieldMetadata<FieldMetadataType.UUID>;
 
@@ -68,6 +70,8 @@ const PARTIAL_CREATED_AT_FIELD = {
   calendarViewUniversalIdentifiers: [],
   mainGroupByFieldMetadataViewUniversalIdentifiers: [],
   fieldPermissionUniversalIdentifiers: [],
+  labelTranslations: null,
+  optionLabelTranslations: null,
   viewSortUniversalIdentifiers: [],
 } as const satisfies PartialSystemFlatFieldMetadata<FieldMetadataType.DATE_TIME>;
 
@@ -97,6 +101,8 @@ const PARTIAL_UPDATED_AT_FIELD = {
   calendarViewUniversalIdentifiers: [],
   mainGroupByFieldMetadataViewUniversalIdentifiers: [],
   fieldPermissionUniversalIdentifiers: [],
+  labelTranslations: null,
+  optionLabelTranslations: null,
   viewSortUniversalIdentifiers: [],
 } as const satisfies PartialSystemFlatFieldMetadata<FieldMetadataType.DATE_TIME>;
 
@@ -126,6 +132,8 @@ const PARTIAL_DELETED_AT_FIELD = {
   calendarViewUniversalIdentifiers: [],
   mainGroupByFieldMetadataViewUniversalIdentifiers: [],
   fieldPermissionUniversalIdentifiers: [],
+  labelTranslations: null,
+  optionLabelTranslations: null,
   viewSortUniversalIdentifiers: [],
 } as const satisfies PartialSystemFlatFieldMetadata<FieldMetadataType.DATE_TIME>;
 
@@ -155,6 +163,8 @@ const PARTIAL_CREATED_BY_FIELD = {
   calendarViewUniversalIdentifiers: [],
   mainGroupByFieldMetadataViewUniversalIdentifiers: [],
   fieldPermissionUniversalIdentifiers: [],
+  labelTranslations: null,
+  optionLabelTranslations: null,
   viewSortUniversalIdentifiers: [],
 } as const satisfies PartialSystemFlatFieldMetadata<FieldMetadataType.ACTOR>;
 
@@ -184,6 +194,8 @@ const PARTIAL_UPDATED_BY_FIELD = {
   calendarViewUniversalIdentifiers: [],
   mainGroupByFieldMetadataViewUniversalIdentifiers: [],
   fieldPermissionUniversalIdentifiers: [],
+  labelTranslations: null,
+  optionLabelTranslations: null,
   viewSortUniversalIdentifiers: [],
 } as const satisfies PartialSystemFlatFieldMetadata<FieldMetadataType.ACTOR>;
 
@@ -213,6 +225,8 @@ const PARTIAL_POSITION_FIELD = {
   calendarViewUniversalIdentifiers: [],
   mainGroupByFieldMetadataViewUniversalIdentifiers: [],
   fieldPermissionUniversalIdentifiers: [],
+  labelTranslations: null,
+  optionLabelTranslations: null,
   viewSortUniversalIdentifiers: [],
 } as const satisfies PartialSystemFlatFieldMetadata<FieldMetadataType.POSITION>;
 
@@ -244,6 +258,8 @@ const PARTIAL_SEARCH_VECTOR_FIELD = {
   calendarViewUniversalIdentifiers: [],
   mainGroupByFieldMetadataViewUniversalIdentifiers: [],
   fieldPermissionUniversalIdentifiers: [],
+  labelTranslations: null,
+  optionLabelTranslations: null,
   viewSortUniversalIdentifiers: [],
 } as const satisfies PartialSystemFlatFieldMetadata<FieldMetadataType.TS_VECTOR>;
 

@@ -77,6 +77,8 @@ describe('WorkspaceRepository', () => {
       isUIReadOnly: false,
       isLabelSyncedWithName: false,
       label: 'ID',
+      labelTranslations: null,
+      optionLabelTranslations: null,
       description: 'Record ID',
       icon: 'IconKey',
       workspaceId: 'test-workspace-id',

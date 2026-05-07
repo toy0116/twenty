@@ -84,6 +84,14 @@ export class FieldMetadataDTO<T extends FieldMetadataType = FieldMetadataType> {
   @Field()
   label: string;
 
+  @IsOptional()
+  @Field(() => GraphQLJSON, { nullable: true })
+  labelTranslations?: Record<string, string>;
+
+  @IsOptional()
+  @Field(() => GraphQLJSON, { nullable: true })
+  optionLabelTranslations?: Record<string, Record<string, string>>;
+
   @IsString()
   @IsOptional()
   @Field({ nullable: true })

@@ -37,6 +37,8 @@ export const getDefaultFlatFieldMetadata = ({
     isSystem: createFieldInput.isSystem ?? false,
     isUnique: createFieldInput.isUnique ?? false,
     label: createFieldInput.label,
+    labelTranslations: null,
+    optionLabelTranslations: null,
     name: createFieldInput.name,
     standardOverrides: null,
     type: createFieldInput.type,

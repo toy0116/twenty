@@ -144,6 +144,8 @@ describe('WorkspaceEntityManager', () => {
       type: 'TEXT' as FieldMetadataType,
       name: 'fieldName',
       label: 'Field Name',
+      labelTranslations: null,
+      optionLabelTranslations: null,
       objectMetadataId: 'test-entity-id',
       isNullable: true,
       isLabelSyncedWithName: false,

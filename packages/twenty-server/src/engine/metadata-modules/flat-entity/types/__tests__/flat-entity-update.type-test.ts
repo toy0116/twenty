@@ -13,6 +13,8 @@ type Assertions = [
       keyof FlatEntityUpdate<'fieldMetadata'>,
       | 'name'
       | 'label'
+      | 'labelTranslations'
+      | 'optionLabelTranslations'
       | 'icon'
       | 'description'
       | 'isActive'

@@ -77,6 +77,8 @@ export const createStandardFieldFlatMetadata = <
     type,
     name,
     label,
+    labelTranslations: null,
+    optionLabelTranslations: null,
     description,
     icon,
     isCustom: false,

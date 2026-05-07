@@ -48,6 +48,8 @@ export const getRelationTargetFlatFieldMetadataMock = ({
     isCustom: true,
     name: 'flatFieldMetadataName',
     label: 'flat field metadata label',
+    labelTranslations: null,
+    optionLabelTranslations: null,
     isNullable: true,
     isUnique: false,
     isUIReadOnly: false,

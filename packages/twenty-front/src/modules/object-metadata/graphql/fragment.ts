@@ -48,6 +48,8 @@ export const OBJECT_METADATA_FRAGMENT = gql`
       type
       name
       label
+      labelTranslations
+      optionLabelTranslations
       description
       icon
       isCustom

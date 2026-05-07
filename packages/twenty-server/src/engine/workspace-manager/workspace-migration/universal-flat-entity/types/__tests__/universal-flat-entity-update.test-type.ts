@@ -9,6 +9,8 @@ type Assertions = [
       keyof UniversalFlatEntityUpdate<'fieldMetadata'>,
       | 'name'
       | 'label'
+      | 'labelTranslations'
+      | 'optionLabelTranslations'
       | 'icon'
       | 'description'
       | 'isActive'

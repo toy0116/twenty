@@ -39,4 +39,6 @@ export type FieldMetadataItem = Omit<
     | null;
   isLabelSyncedWithName?: boolean | null;
   morphId?: string | null;
+  labelTranslations?: Record<string, string> | null;
+  optionLabelTranslations?: Record<string, Record<string, string>> | null;
 };

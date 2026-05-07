@@ -46,6 +46,8 @@ export const getMockFieldMetadataEntity = <
     id: faker.string.uuid(),
     name: 'defaultFieldMetadataName',
     label: 'Default field metadata entity label',
+    labelTranslations: null,
+    optionLabelTranslations: null,
     description: 'Default field metadata entity description',
     defaultValue: null,
     options: null,
