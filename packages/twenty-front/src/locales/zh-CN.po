@@ -7901,7 +7901,7 @@ msgid ""
 "```\n"
 "\n"
 "See the [Getting Started guide](https://twenty.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://twenty.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
-msgstr "托管工作区的自定义内容与覆盖配置。\n\n#### 包含内容\n你在标准应用之上创建的所有扩展都归入"自定义"分组，包括 Schema 变更、界面调整和工作区专属逻辑。\n\n- 自定义对象和字段，用于构建专属数据模型\n- 视图、导航项和记录布局，定义团队的工作方式\n- 逻辑函数、前端组件和 Agent，实现自动化或扩展功能\n\n#### 用途说明\n此应用适合存放仅限于当前工作区的定制内容。\n\n如果你在为某一业务定制单个工作区，放在这里即可。如果你要构建一个可复用的业务应用（含独立数据模型、UI 和自动化，需要版本管理、跨工作区共享或安装），请改为创建专属应用。\n\n#### 构建自己的应用\n\n一行命令生成应用脚手架：\n\n```bash\nnpx create-twenty-app@latest my-twenty-app\n```\n\n查看 [快速入门指南](https://twenty.com/developers/extend/apps/getting-started) 获取完整说明，以及 [构建应用](https://twenty.com/developers/extend/apps/building) 了解 `defineApplication` / `defineEntity` API 用法。"
+msgstr "托管工作区的自定义内容与覆盖配置。\n\n#### 包含内容\n你在标准应用之上创建的所有扩展都归入\"自定义\"分组，包括 Schema 变更、界面调整和工作区专属逻辑。\n\n- 自定义对象和字段，用于构建专属数据模型\n- 视图、导航项和记录布局，定义团队的工作方式\n- 逻辑函数、前端组件和 Agent，实现自动化或扩展功能\n\n#### 用途说明\n此应用适合存放仅限于当前工作区的定制内容。\n\n如果你在为某一业务定制单个工作区，放在这里即可。如果你要构建一个可复用的业务应用（含独立数据模型、UI 和自动化，需要版本管理、跨工作区共享或安装），请改为创建专属应用。\n\n#### 构建自己的应用\n\n一行命令生成应用脚手架：\n\n```bash\nnpx create-twenty-app@latest my-twenty-app\n```\n\n查看 [快速入门指南](https://twenty.com/developers/extend/apps/getting-started) 获取完整说明，以及 [构建应用](https://twenty.com/developers/extend/apps/building) 了解 `defineApplication` / `defineEntity` API 用法。"
 
 #. js-lingui-id: yY8wAv
 #: src/modules/workflow/workflow-steps/workflow-actions/delay-actions/components/WorkflowEditActionDelay.tsx
@@ -13502,7 +13502,7 @@ msgstr "查看所有对象上的记录"
 #. js-lingui-id: Hhnssf
 #: src/pages/settings/applications/components/SettingsApplicationTableRow.tsx
 msgid "Seeded"
-msgstr ""
+msgstr "已初始化"
 
 #. js-lingui-id: rG3WVm
 #: src/modules/spreadsheet-import/steps/components/ValidationStep/components/columns.tsx
